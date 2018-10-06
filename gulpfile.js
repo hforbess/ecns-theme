@@ -9,10 +9,10 @@ var zip = require('gulp-zip');
 
 // postcss plugins
 var autoprefixer = require('autoprefixer');
-var colorFunction = require('postcss-color-function');
-var cssnano = require('cssnano');
-var customProperties = require('postcss-custom-properties');
-var easyimport = require('postcss-easy-import');
+//var colorFunction = require('postcss-color-function');
+//var cssnano = require('cssnano');
+//var customProperties = require('postcss-custom-properties');
+//var easyimport = require('postcss-easy-import');
 
 var swallowError = function swallowError(error) {
     gutil.log(error.toString());

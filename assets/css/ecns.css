@@ -1,0 +1,22 @@
+.container.ecns-post-card{
+  max-width:75%;
+  margin: 0 auto;
+  padding: 40px 10px;
+
+}
+
+.post-card-img{
+  width:600px;
+  height:auto;
+
+}
+
+.post-card-title{
+  font-size: 50px;  
+
+
+}
+
+.excerpt{
+  font-size: 30px;
+}
