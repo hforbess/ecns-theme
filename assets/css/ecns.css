@@ -6,8 +6,9 @@
 }
 
 .post-card-img{
-  width:600px;
+  min-width:250px;
   height:auto;
+  border: 1px solid black;
 
 }
 
@@ -19,4 +20,16 @@
 
 .excerpt{
   font-size: 30px;
+}
+
+.site-logo{
+
+  width: 400px;
+  height: 200px;
+}
+
+.site-description{
+  font-size:30px;
+  background: blue;
+
 }
