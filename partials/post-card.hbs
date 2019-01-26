@@ -1,19 +1,20 @@
 <div class="container ecns-post-card" >
-  <div class="row">
-    <div class="col">
-      <img src="{{feature_image}}" class="post-card-img" /> 
-    </div>
-    <div class="col">
-      <h1 class="post-card-title">
-        {{title}}
+      <h1 class="post-card-title text-center">
+        <a href="{{url}}" class="text-info" > {{title}}</a>
       </h1>
-     </div>
-  </div>
-    <div class="row excerpt">
-      <div class="col">
+    <div class="post-full-content">
+	<a href="{{url}}">
+          <img src="{{feature_image}}" class="post-card-img" />
+	 </a>
+	 <div  class="">
         {{excerpt words="33"}} 
+
+        <a href="{{url}}" >
+	<button type="button" class="btn btn-primarty"> Read More </button>
+	</a>
+	 </div>
       </div>
-    </div>
+        
       
 </div>
 

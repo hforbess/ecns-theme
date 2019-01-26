@@ -1,25 +1,51 @@
 .container.ecns-post-card{
-  max-width:75%;
+  max-width:700px%;
   margin: 0 auto;
   padding: 40px 10px;
+  display: block;
 
 }
+.col.ecns-post-card-col-left{
+  max-width:30%;
 
+}
+.col.ecns-post-card-col-right{
+  max-width:70%;  
+
+}
 .post-card-img{
-  min-width:250px;
+  min-width:300px;
   height:auto;
   border: 1px solid black;
 
 }
+.post-full-content{
+  padding-top:5px;
+  font-family:helvetica;
 
+}
+.post-full-content img{
+  float:left;
+  max-width:300px;
+  margin: 5px;
+
+}
 .post-card-title{
-  font-size: 50px;  
+  font-size: 30px;  
+  font-weight: bold;
+  padding-top: 10px;
 
 
 }
-
-.excerpt{
+.post-full-title{
   font-size: 30px;
+  padding: 10px 10px;
+}
+.post-full-header{
+  padding: 5px 5px;
+}
+.excerpt{
+  font-size: 20px;
 }
 
 .site-logo{

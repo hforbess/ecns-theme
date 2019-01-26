@@ -27,15 +27,13 @@ into the {body} of the default.hbs template --}}
                 <h1 class="post-full-title">{{title}}</h1>
             </header>
 
-            {{#if feature_image}}
-            <figure class="post-full-image" style="background-image: url({{feature_image}})">
-            </figure>
-            {{/if}}
 
             <section class="post-full-content">
-                <div class="post-content">
-                    {{content}}
-                </div>
+                <div class="">
+		<img src="{{feature_image}}" class="post-card-img"  /> 
+		     
+		     {{content}}
+		</div>
             </section>
 
             {{!-- Email subscribe form at the bottom of the page --}}
@@ -46,21 +44,21 @@ into the {body} of the default.hbs template --}}
                 {{subscribe_form placeholder="youremail@example.com"}}
             </section>
             {{/if}}
-
+            {{!--
             <footer class="post-full-footer">
 
-                {{!-- There are two options for how we display the byline/author-info.
+                 There are two options for how we display the byline/author-info.
                 If the post has more than one author, we load a specific template
                 from includes/byline-multiple.hbs, otherwise, we just use the
-                default byline. --}}
-
+                default byline. 
+	
                 {{#has author="count:>1"}}
                     {{> "byline-multiple"}}
                 {{else}}
                     {{> "byline-single"}}
                 {{/has}}
-
             </footer>
+		--}}
 
             {{!--
             <section class="post-full-comments">
